@@ -1144,21 +1144,17 @@ _____(_.^._) ______ (_.^._)
 
             function resetCursor() {
                 if (termCursor) {
-                    termCursor.style.transform = 'translateX(0px)';
+                    termCursor.style.display = 'inline-block';
                     termCursor.classList.add('cursor-blink');
-                    termCursor.style.opacity = '1';
                 }
             }
 
             if (termInput) {
                 termInput.addEventListener('input', () => {
                     if (termCursor) {
-                        const len = termInput.value.length;
-                        if (len > 0) {
-                            // Yazı yazılmaya başlandığında yanıp sönmesi durur (sabit durur)
-                            termCursor.classList.remove('cursor-blink');
-                            termCursor.style.opacity = '1';
-                            termCursor.style.transform = `translateX(${len * 7.25}px)`;
+                        if (termInput.value.length > 0) {
+                            // Yazı yazılmaya başlandığında direkt kaybolur
+                            termCursor.style.display = 'none';
                         } else {
                             resetCursor();
                         }
