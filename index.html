@@ -920,6 +920,96 @@ _____(_.^._) ______ (_.^._)
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 
+                <!-- Exp 0: TÜBİTAK BİLGEM (Featured Corporate Internship) -->
+                <div class="bento-card rounded-3xl p-7 sm:p-8 col-span-1 md:col-span-2 border border-cyan-500/30 relative overflow-hidden">
+                    <!-- Top Status Bar (Matching other bento cards with clean spacing) -->
+                    <div class="flex justify-between items-center mb-5 font-mono text-xs">
+                        <div class="flex items-center gap-2">
+                            <span class="text-cyan-400">commit // tubitak-bilgem-intern</span>
+                            <span class="theme-text-muted">•</span>
+                            <span class="theme-text-muted" data-i18n="exp_tubitak_dates">Ağu 2026 - Eyl 2026 • 2 ay</span>
+                        </div>
+                        <span class="px-2.5 py-0.5 rounded-full bg-cyan-500/15 text-cyan-400 border border-cyan-500/30" data-i18n="badge_corporate_intern">Kurumsal Ar-Ge Stajı</span>
+                    </div>
+
+                    <!-- Role & Organization Header -->
+                    <div class="flex items-center gap-4 mb-5">
+                        <div class="w-12 h-12 rounded-2xl bg-red-500/15 text-red-500 border border-red-500/30 flex-shrink-0 flex items-center justify-center font-bold text-xl shadow-sm">
+                            <i class="fas fa-building-columns"></i>
+                        </div>
+                        <div>
+                            <h3 class="text-xl sm:text-2xl font-bold theme-text-primary mb-1" data-i18n="exp_tubitak_title">Full-Stack Developer Intern</h3>
+                            <p class="font-mono text-xs theme-text-muted" data-i18n="exp_tubitak_role">TÜBİTAK BİLGEM • Yazılım Geliştirme Birimi • Gebze, Kocaeli (Ofiste)</p>
+                        </div>
+                    </div>
+
+                    <div class="theme-text-secondary text-sm leading-relaxed mb-4" data-i18n="exp_tubitak_desc">
+                        <p class="mb-3">TÜBİTAK BİLGEM Yazılım Geliştirme Birimi bünyesinde kurumsal bulut depolama mimarileri, dağıtık sistemler ve uygulama güvenliği üzerine çalıştım:</p>
+                        <ul class="space-y-2 text-xs sm:text-sm">
+                            <li><strong class="theme-text-primary">• Safir Depo:</strong> Türkiye'nin yerli kurumsal bulut depolama platformu Safir Depo projesini analiz ederek dağıtık dosya yönetimi ve güvenli depolama mimarilerini inceledim.</li>
+                            <li><strong class="theme-text-primary">• Amethyst Cloud Storage:</strong> S3 uyumlu, yüksek performanslı dağıtık bir bulut depolama ekosistemi tasarlayıp geliştirdim.</li>
+                            <li><strong class="theme-text-primary">• Pure Java 21 &amp; Go Mimarisi:</strong> Spring Boot yerine doğrudan Java 21 ve Sanal İş Parçacıkları (Project Loom) ile ~40MB RAM tüketen ultra hafif REST/WebDAV çekirdeği yazdım. Masaüstü için Go ile sıfır bağımlılıklı native sistem tepsisi (Tray) ve sanal sürücü istemcisi geliştirdim.</li>
+                            <li><strong class="theme-text-primary">• Çoklu Platform Sanal Sürücü:</strong> Windows Explorer (Z: sürücüsü) ve Pardus/Linux dosya yöneticilerine FUSE/WebDAV üzerinden tek tıkla bağlanan ağ sürücüsü entegrasyonu kurdum.</li>
+                            <li><strong class="theme-text-primary">• Apache OpenDAL (Rust) &amp; SeaweedFS:</strong> Rust tabanlı OpenDAL motorunu JNI köprüsüyle entegre ederek SeaweedFS S3 kümesine minimum gecikmeyle veri aktarımı sağladım.</li>
+                            <li><strong class="theme-text-primary">• Zero-Heap Medya Akışı &amp; ZIP Parser:</strong> Bellek şişirmeden video/ses akışı sağlayan HTTP 206 bayt aralıklı akış modülünü ve dev arşivleri indirmeden S3 üzerinden dizin ağacını çıkaran ZIP EOCD ayrıştırıcısını geliştirdim.</li>
+                            <li><strong class="theme-text-primary">• Güvenlik Sertleştirmesi (OWASP Top 10):</strong> Bucket4j hız sınırlayıcı (brute-force kalkanı), path traversal denetimi, zip-bomb engelleme ve Keycloak IAM (OAuth2, JWT, RBAC) erişim mimarisini uyguladım.</li>
+                            <li><strong class="theme-text-primary">• Bulut Dağıtımı &amp; DevOps:</strong> Docker Compose ile AWS EC2 üzerinde canlı dağıtım; DuckDNS (DDNS) ve Nginx SSL/TLS (HTTPS &amp; HSTS) sonlandırma ile güvenli genel erişim sağladım.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Amethyst Visual Evidence Gallery -->
+                    <div class="mt-6 pt-5 border-t border-slate-500/15">
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="font-mono text-xs text-cyan-400 flex items-center gap-2">
+                                <i class="fas fa-camera"></i> <span data-i18n="exp_tubitak_gallery_title">Amethyst Ekran Görüntüleri &amp; Mimari Kanıtları (Büyütmek için tıklayın)</span>
+                            </span>
+                            <a href="https://www.linkedin.com/posts/mehmet-emin-metin-a905aa257_softwareengineering-java-golang-ugcPost-7507704948525133824-O6b_/" target="_blank" class="font-mono text-xs text-slate-400 hover:text-cyan-400 transition flex items-center gap-1.5">
+                                <span>LinkedIn İnceleme</span> <i class="fas fa-arrow-up-right-from-square text-[10px]"></i>
+                            </a>
+                        </div>
+                        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+                            <div onclick="openImageModal('Amethyst/1789373437111.jpeg')" class="group relative rounded-xl overflow-hidden border border-slate-500/20 hover:border-cyan-500/50 cursor-pointer transition aspect-video bg-slate-900/50">
+                                <img src="Amethyst/1789373437111.jpeg" alt="Amethyst Architecture Diagram" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-2">
+                                    <span class="font-mono text-[10px] text-cyan-300 truncate"><i class="fas fa-search-plus mr-1"></i>Mimari Şema</span>
+                                </div>
+                            </div>
+                            <div onclick="openImageModal('Amethyst/1789373437115.jpeg')" class="group relative rounded-xl overflow-hidden border border-slate-500/20 hover:border-cyan-500/50 cursor-pointer transition aspect-video bg-slate-900/50">
+                                <img src="Amethyst/1789373437115.jpeg" alt="Amethyst Web Dashboard" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-2">
+                                    <span class="font-mono text-[10px] text-cyan-300 truncate"><i class="fas fa-search-plus mr-1"></i>Web Paneli</span>
+                                </div>
+                            </div>
+                            <div onclick="openImageModal('Amethyst/1789373437266.jpeg')" class="group relative rounded-xl overflow-hidden border border-slate-500/20 hover:border-cyan-500/50 cursor-pointer transition aspect-video bg-slate-900/50">
+                                <img src="Amethyst/1789373437266.jpeg" alt="Amethyst FUSE Virtual Drive" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-2">
+                                    <span class="font-mono text-[10px] text-cyan-300 truncate"><i class="fas fa-search-plus mr-1"></i>Z: Sanal Sürücü</span>
+                                </div>
+                            </div>
+                            <div onclick="openImageModal('Amethyst/1789373440359.jpeg')" class="group relative rounded-xl overflow-hidden border border-slate-500/20 hover:border-cyan-500/50 cursor-pointer transition aspect-video bg-slate-900/50">
+                                <img src="Amethyst/1789373440359.jpeg" alt="Amethyst Telemetry &amp; Metrics" class="w-full h-full object-cover group-hover:scale-105 transition duration-300">
+                                <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition flex items-end p-2">
+                                    <span class="font-mono text-[10px] text-cyan-300 truncate"><i class="fas fa-search-plus mr-1"></i>Sistem Metrikleri</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tech Stack Badges -->
+                    <div class="flex flex-wrap gap-1.5 mt-5 font-mono text-[11px]">
+                        <span class="px-2.5 py-1 rounded-md bg-cyan-500/10 text-cyan-300 border border-cyan-500/20">Pure Java 21 (Loom)</span>
+                        <span class="px-2.5 py-1 rounded-md bg-sky-500/10 text-sky-300 border border-sky-500/20">Go (FUSE &amp; Tray)</span>
+                        <span class="px-2.5 py-1 rounded-md bg-amber-500/10 text-amber-300 border border-amber-500/20">Apache OpenDAL (Rust)</span>
+                        <span class="px-2.5 py-1 rounded-md bg-emerald-500/10 text-emerald-300 border border-emerald-500/20">SeaweedFS S3</span>
+                        <span class="px-2.5 py-1 rounded-md bg-indigo-500/10 text-indigo-300 border border-indigo-500/20">WebDAV</span>
+                        <span class="px-2.5 py-1 rounded-md bg-rose-500/10 text-rose-300 border border-rose-500/20">OWASP Top 10</span>
+                        <span class="px-2.5 py-1 rounded-md bg-purple-500/10 text-purple-300 border border-purple-500/20">Keycloak IAM</span>
+                        <span class="px-2.5 py-1 rounded-md bg-blue-500/10 text-blue-300 border border-blue-500/20">Docker Compose</span>
+                        <span class="px-2.5 py-1 rounded-md bg-orange-500/10 text-orange-300 border border-orange-500/20">AWS EC2</span>
+                        <span class="px-2.5 py-1 rounded-md bg-slate-500/10 text-slate-300 border border-slate-500/20">Pardus &amp; Linux</span>
+                    </div>
+                </div>
+                
                 <!-- Exp 1 -->
                 <div class="bento-card rounded-3xl p-7">
                     <div class="flex justify-between items-center mb-3 font-mono text-xs">
@@ -1351,6 +1441,12 @@ _____(_.^._) ______ (_.^._)
                 skill_group_agent: "Mimari & Geliştirici Araçları",
                 skill_group_leadership: "Dil, Eğitmenlik & Liderlik",
                 exp_heading: "Deneyim, Liderlik & Topluluk Geçmişi",
+                exp_tubitak_title: "Full-Stack Developer Intern",
+                exp_tubitak_role: "TÜBİTAK BİLGEM • Yazılım Geliştirme Birimi • Gebze, Kocaeli (Ofiste)",
+                exp_tubitak_dates: "Ağu 2026 - Eyl 2026 • 2 ay",
+                badge_corporate_intern: "Kurumsal Ar-Ge Stajı",
+                exp_tubitak_gallery_title: "Amethyst Ekran Görüntüleri & Mimari Kanıtları (Büyütmek için tıklayın)",
+                exp_tubitak_desc: `<p class="mb-3">TÜBİTAK BİLGEM Yazılım Geliştirme Birimi bünyesinde kurumsal bulut depolama mimarileri, dağıtık sistemler ve uygulama güvenliği üzerine çalıştım:</p><ul class="space-y-2 text-xs sm:text-sm"><li><strong class="theme-text-primary">• Safir Depo:</strong> Türkiye\'nin yerli kurumsal bulut depolama platformu Safir Depo projesini analiz ederek dağıtık dosya yönetimi ve güvenli depolama mimarilerini inceledim.</li><li><strong class="theme-text-primary">• Amethyst Cloud Storage:</strong> S3 uyumlu, yüksek performanslı dağıtık bir bulut depolama ekosistemi tasarlayıp geliştirdim.</li><li><strong class="theme-text-primary">• Pure Java 21 & Go Mimarisi:</strong> Spring Boot yerine doğrudan Java 21 ve Sanal İş Parçacıkları (Project Loom) ile ~40MB RAM tüketen ultra hafif REST/WebDAV çekirdeği yazdım. Masaüstü için Go ile sıfır bağımlılıklı native sistem tepsisi (Tray) ve sanal sürücü istemcisi geliştirdim.</li><li><strong class="theme-text-primary">• Çoklu Platform Sanal Sürücü:</strong> Windows Explorer (Z: sürücüsü) ve Pardus/Linux dosya yöneticilerine FUSE/WebDAV üzerinden tek tıkla bağlanan ağ sürücüsü entegrasyonu kurdum.</li><li><strong class="theme-text-primary">• Apache OpenDAL (Rust) & SeaweedFS:</strong> Rust tabanlı OpenDAL motorunu JNI köprüsüyle entegre ederek SeaweedFS S3 kümesine minimum gecikmeyle veri aktarımı sağladım.</li><li><strong class="theme-text-primary">• Zero-Heap Medya Akışı & ZIP Parser:</strong> Bellek şişirmeden video/ses akışı sağlayan HTTP 206 bayt aralıklı akış modülünü ve dev arşivleri indirmeden S3 üzerinden dizin ağacını çıkaran ZIP EOCD ayrıştırıcısını geliştirdim.</li><li><strong class="theme-text-primary">• Güvenlik Sertleştirmesi (OWASP Top 10):</strong> Bucket4j hız sınırlayıcı (brute-force kalkanı), path traversal denetimi, zip-bomb engelleme ve Keycloak IAM (OAuth2, JWT, RBAC) erişim mimarisini uyguladım.</li><li><strong class="theme-text-primary">• Bulut Dağıtımı & DevOps:</strong> Docker Compose ile AWS EC2 üzerinde canlı dağıtım; DuckDNS (DDNS) ve Nginx SSL/TLS (HTTPS & HSTS) sonlandırma ile güvenli genel erişim sağladım.</li></ul>`, 
                 exp_erasmus_web_title: "Web Geliştirme Eğitmeni & Atölye Yürütücüsü",
                 badge_english_training: "İngilizce Eğitim",
                 exp_erasmus_web_desc: "Erasmus+ uluslararası öğrencilerine yönelik düzenlenen teknik atölyede gönüllü eğitmen olarak görev aldım. Çok uluslu öğrenci grubuna tamamen İngilizce olarak HTML, CSS ve web geliştirme temellerini aktararak ortak bir web projesinin inşasını yönettim.",
@@ -1416,6 +1512,12 @@ _____(_.^._) ______ (_.^._)
                 skill_group_agent: "Architecture & Dev Tooling",
                 skill_group_leadership: "Language, Teaching & Leadership",
                 exp_heading: "Experience, Leadership & Community Log",
+                exp_tubitak_title: "Full-Stack Developer Intern",
+                exp_tubitak_role: "TÜBİTAK BİLGEM • Software Development Dept • Gebze, Kocaeli • On-site",
+                exp_tubitak_dates: "Aug 2026 - Sep 2026 • 2 mos",
+                badge_corporate_intern: "Corporate R&D Internship",
+                exp_tubitak_gallery_title: "Amethyst Visual Screenshots & Architecture Proof (Click to expand)",
+                exp_tubitak_desc: `<p class="mb-3">At TÜBİTAK BİLGEM, I worked on enterprise cloud storage architectures, distributed systems, and application security:</p><ul class="space-y-2 text-xs sm:text-sm"><li><strong class="theme-text-primary">• Safir Depo:</strong> Analyzed TÜBİTAK BİLGEM\'s national enterprise cloud storage platform (Safir Depo), gaining insight into distributed file management and secure storage architectures.</li><li><strong class="theme-text-primary">• Amethyst Cloud Storage:</strong> Designed and built an S3-compatible, high-performance distributed cloud storage system.</li><li><strong class="theme-text-primary">• Pure Java 21 & Go Architecture:</strong> Built an ultra-lightweight (~40MB RAM) backend using Pure Java 21 and Project Loom Virtual Threads for high-concurrency REST/WebDAV without heavy framework overhead (Spring). Engineered a native, zero-dependency desktop Tray Toolbox and virtual drive client in Go.</li><li><strong class="theme-text-primary">• Multi-Platform Virtual Drive:</strong> Implemented a one-click network drive mounted directly into Windows Explorer (Z:) and Pardus/Linux file managers via FUSE/WebDAV.</li><li><strong class="theme-text-primary">• High-Speed S3 Engine (Apache OpenDAL):</strong> Integrated the Rust-based OpenDAL engine via JNI to interact with SeaweedFS S3 cluster with minimal latency.</li><li><strong class="theme-text-primary">• Zero-Heap Streaming & Archive Inspection:</strong> Implemented HTTP 206 byte-range streaming for seamless media playback without memory bloat, and an on-the-fly ZIP EOCD parser to inspect multi-GB archives directly from S3 without downloading.</li><li><strong class="theme-text-primary">• Security Hardening & Penetration Testing:</strong> Engineered Defense-in-Depth security adhering to OWASP Top 10 and ASVS standards: Bucket4j rate limiting (brute-force shield), strict path traversal sanitization, fail-closed cryptography, and Zip-Bomb DoS protection.</li><li><strong class="theme-text-primary">• Cloud Deployment & Secure Ingress (DevOps):</strong> Integrated Keycloak IAM (OAuth2, JWT, RBAC) and deployed microservices via Docker Compose on an AWS EC2 instance. Configured DuckDNS (DDNS) with Nginx SSL/TLS termination (HTTPS & HSTS) for secure production access.</li></ul>`, 
                 exp_erasmus_web_title: "Web Development Instructor & Workshop Lead",
                 badge_english_training: "English Instruction",
                 exp_erasmus_web_desc: "Served as voluntary instructor for international Erasmus+ students. Taught HTML, CSS, and web fundamentals entirely in English, guiding multinational teams through building a live project.",
@@ -1475,5 +1577,26 @@ _____(_.^._) ______ (_.^._)
             setLanguage(savedLang);
         });
     </script>
+
+    <!-- Image Lightbox Modal -->
+    <div id="imageModal" class="fixed inset-0 z-50 hidden bg-black/85 backdrop-blur-md flex items-center justify-center p-4" onclick="closeImageModal()">
+        <div class="relative max-w-5xl max-h-[90vh]" onclick="event.stopPropagation()">
+            <img id="modalImg" src="" alt="Preview" class="max-w-full max-h-[85vh] rounded-2xl border border-cyan-500/30 shadow-2xl object-contain">
+            <button onclick="closeImageModal()" class="absolute -top-3 -right-3 w-9 h-9 rounded-full bg-slate-900 border border-cyan-500/40 text-cyan-400 flex items-center justify-center font-bold text-sm hover:bg-cyan-500 hover:text-slate-900 transition shadow-lg">✕</button>
+        </div>
+    </div>
+
+    <script>
+        function openImageModal(src) {
+            document.getElementById('modalImg').src = src;
+            document.getElementById('imageModal').classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeImageModal() {
+            document.getElementById('imageModal').classList.add('hidden');
+            document.body.style.overflow = '';
+        }
+    </script>
+
 </body>
 </html>
